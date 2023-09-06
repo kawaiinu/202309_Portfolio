@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Kiwi Maru', 'Varela Round', sans-serif;
+    font-size: 24px;
+    margin:0;
+}
+
+p {
+    margin:auto;
+    text-align:center;
+    padding:5px;
+}
+
+h1{
+    margin:0 0 20px 0;
+}
+
+header{
+    background: rgb(182, 224, 254);
+    text-align:center;
+}
+
+
+.contents{
+    background: rgb(255, 251, 238);
+    color: rgb(91, 67, 59);
+    text-align:center;
+    padding: 30px 50px;
+    margin: 0 auto;
+}
+.contents:nth-child(odd){
+    background: rgb(255, 251, 238);
+}
+.contents:nth-child(even){
+    background: rgb(230, 230, 230);
+}
+
+.pr-box{
+    display: flex;
+    text-align:center;
+    justify-content: center; 
+}
+.pr-menu{
+    font-size: 20px;
+    width:20%;
+    padding:0 50px;
+}
+
+.pr-img{
+    text-align:center;
+}
+
+.join-btn {
+    font-size:28px;
+    color: rgb(255, 251, 238);
+    background: rgb(107, 162, 106);
+    padding: 10px 20px;
+    margin: 50px 3px;
+    border-radius:50px;
+    transition: all .5s;
+}
+.join-btn:hover{
+    background: rgb(135, 190, 133);
+}
+
+footer{
+    background: rgb(182, 224, 254);
+    color: rgb(255, 251, 238);
+    font-size:14px;
+}
+.footer-contens{
+    margin:10px 10px 0 0;
+}
+footer p{
+    padding:0 0 10px 0;
+}
+
